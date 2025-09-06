@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prototype Login</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" id="form" method="post">
+            <legend>Sign in</legend>
+            <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" name="username" autocomplete="username" id="username" placeholder="Username">
+                    <span class="message warning"></span>
+            </div>
+            <div class="form-group">
+                <label for="email">email</label>
+                <input type="email" name="email" id="email" placeholder="Email">
+                <span class="message warning"></span>
+            </div>
+            <div class="form-group">
+                <label for="password">password</label>
+                <input type="password" name="password" id="password" autocomplete="current-password" placeholder="Password">
+                <span class="message warning"></span>
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">comfirm password</label>
+                <input type="password" id="confirm-password" autocomplete="current-password" name="confirm-password" placeholder="Confirm Password">
+                <span class="message warning"></span>
+            </div>
+            <div class="form-group">
+                <select name="province" id="province">
+                    <option value="">--- Select Province</option>
+                    <option value="HN">Ha Noi</option>
+                    <option value="CT">Can Tho</option>
+                    <option value="HCM">Ho chi Minh</option>
+                </select>
+                <span class="message warning"></span>
+            </div>
+            <div class="form-group">
+                <label for="">Gendle</label>
+                <div>
+                    <input type="radio" name="gendle" id="male" value="male" class="form-control"> 
+                    Male
+                </div>
+                <div>
+                    <input type="radio" name="gendle" id="female" value="female" class="form-control">
+                    Female
+                </div>
+                <span class="message warning"></span>
+            </div>
+            <div class="form-group">
+                <label>Interests</label>
+                <div>
+                    <input name="enjoy" type="checkbox" name="enjoy" value="1">
+                    Football
+                </div>
+                <div>
+                    <input name="enjoy" type="checkbox" name="enjoy" value="2">
+                    Volleyball
+                </div>
+                <div>
+                    <input name="enjoy" type="checkbox" name="enjoy" value="3">
+                    Pickelball
+                </div>
+                <span class="message warning"></span>
+            </div>
+            <div class="form-group">
+                <label for="avatar">Ảnh đại diện</label>
+                <input type="file" name="avatar" id="avatar">
+                <div class="message warning"></div>
+            </div>
+            <input type="submit" value="Log in" class="submit">
+        </form>
+    </div>
+</body>
+    <script src="script.js"></script>
+</html>

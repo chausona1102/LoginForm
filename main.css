@@ -1,0 +1,72 @@
+.container {
+    width: 30vw;
+    margin: 20px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+legend {
+    padding: 10px;
+    color: Red;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+form { 
+    width: 100%;
+    border-radius: 15px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+}
+label {
+    text-transform: capitalize;
+    padding: 5px;
+    margin-top: 4px;
+    text-align: left;
+}
+
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form .submit {
+    color: white;
+    padding: 8px;
+    width: 100px;
+    border: none;
+    margin: 10px;
+    display: flex;
+    align-self: center;
+    border-radius: 4px;
+    background-color: rgb(95, 95, 255);
+}
+form .submit:hover {
+    cursor: pointer;
+    background-color:  rgb(114, 114, 224);
+}
+
+.warning {
+    color: red;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+.form-group label{
+    padding: 4px 3px;
+}
+
+.form-group select {
+    display: block;
+    padding: 8px 8px;
+    margin-top: 15px;
+    border-radius: 4px;
+}
